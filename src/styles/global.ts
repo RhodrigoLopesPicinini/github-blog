@@ -8,6 +8,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        height: 100vh;
+        width: 100vw;
+
         background-color: ${(props) => props.theme['base-background']};
         color: ${(props) => props.theme['base-text']};
     }
